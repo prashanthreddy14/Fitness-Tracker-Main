@@ -1,0 +1,13 @@
+server:
+  port: 1234
+  
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/fitnesstracker
+    username: root
+    password: Ravi@123
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
